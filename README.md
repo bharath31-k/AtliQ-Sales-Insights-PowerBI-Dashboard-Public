@@ -21,8 +21,10 @@ In the currency there were two types of currencies in transactions, performed cu
 Created measure for needs and used them for creating visuals in PowerBi.
 After the initial report reviewed by the stakeholders, made changes to the report based on the review commends.
 Final result
+
 Initial Dashboard
 ![image](https://github.com/user-attachments/assets/e36e3a04-4e80-42e7-bc47-5e96aa52de63)
+
 
 
 Updated Dashboard
