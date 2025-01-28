@@ -1,31 +1,27 @@
-# AtliQ-Sales-Insights-PowerBI-Dashboard-Public
-Project objective:
+# AtliQ Sales Insights PowerBI Dashboard Public
+Problem statement
+AtliQ hardware is a company which delivers computer hardware & peripheral Manufacturers to his clients, which has several branches throughout India. The sales director of the company is facing a lot of issues in terms of understanding how the business is performing and what are all the problem company is facing currently as the sales are not as expected and declining gradually. And whenever he calls the regional managers to get the current status of the sales and market, as a human behaviour, these people sugar cote the truth and send tons of Excel files instead of disclosing the truth, which made the sales director more frustrated. Humans are not comfortable in consuming numbers from excel files, which is obvious reason for the frustration.
 
-1. Created a _[AtliQ Hardware Analytics Report](AtliQ MySQL Report.pdf)
+Solution
+Sales director of the AltiQ hardware, decided to build a PowerBI Dashboard for converting the data into visual representation to make data driven decisions. So, he hired a team of data people to complete this task.
 
-Tables Used:
+AIMS Grid
+By using the AIMS grid project management tool, we made sure what are the purpose, stakeholder, end result and success criteria of our project.
+![image](https://github.com/user-attachments/assets/3e6bca97-1b0a-43a7-9ecb-c7a23873558c)
 
- dim_customer
- dim_product
- fact_sales_monthly
- fact_gross_price
- fact_pre_invoice_deductions
- fact_post_invoice_deductions
-Total Database: 1425706 (approximately 1.43 million records)
 
-Technical Skills Gained:
-SQL Queries: Developed proficiency in crafting complex SQL queries involving various joins, user-defined functions, stored procedures, and window functions to extract, manipulate, and analyze data.
 
-Data Extraction: Acquired skills to efficiently extract specific data points from multiple tables using SQL queries, enhancing the ability to handle large datasets.
+Steps Followed in this project
+Performed a High level analysis of data in SQL to get better understanding over the data.
+Connected the SQL data set to PowerBI.
+Performed ETL and data cleaning on the imported data.
+In the currency there were two types of currencies in transactions, performed currency conversion to make all the currency type same
+Created measure for needs and used them for creating visuals in PowerBi.
+After the initial report reviewed by the stakeholders, made changes to the report based on the review commends.
+Final result
+Initial Dashboard
+![image](https://github.com/user-attachments/assets/e36e3a04-4e80-42e7-bc47-5e96aa52de63)
 
-User-defined Functions: Learned to create and utilize user-defined functions for custom data processing tasks, such as deriving fiscal year and fiscal quarter from calendar dates.
 
-Stored Procedures: Gained expertise in creating stored procedures to automate repetitive tasks, such as generating monthly gross sales reports for any customer or assigning market badges based on sales turnover.
-
-Database Views: Learned to create and utilize database views to store and access complex query results for future reuse, streamlining the data retrieval process.
-
-Common Table Expressions (CTEs) and Window Functions: Acquired knowledge of using CTEs and window functions to perform advanced data manipulation tasks, such as calculating net sales percentage contribution and customer-wise net sales distribution.
-
-Soft Skills Gained:
-Interpreting business requirements and translating them into SQL queries for generating relevant reports.
-Effective communication or results through extracting data into Excel and plotting charts.
+Updated Dashboard
+![image](https://github.com/user-attachments/assets/23734df3-223e-41eb-849e-4c0f18e668a4)
